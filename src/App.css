@@ -1,0 +1,318 @@
+
+.touch{
+  margin:10% 0px 0px 0px
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.calculate-bmi{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  background-color: #eaeaea;
+  height:700px;
+ 
+}
+.bmi-title{
+  color:#0082cb!important;
+  font-weight: 600;
+}
+.cards-4{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.cards-1{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+.calculat-bmi{
+  text-align: center;
+  background-color: #aac2ce;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calculat-bmi h1{
+  color:#2b5263
+}
+*{
+  color: #AAC2CE;
+}
+input{
+  /* border:2px solid #aaa; */
+  border:none;
+  outline:none;
+  padding:8px;
+  margin:4px;
+  color:red;
+  /* font-family: "Open Sans", sans;
+    font-weight: 400; */
+    /* text-indent: 70px; */
+}
+::placeholder {
+  color: #aac2ce;}
+.submit{
+  width:220px;
+color:white;
+font-size: 18px;;
+background-color: #c79f5a;
+margin: 40px 55px 40px 40px;
+  height:52px
+}
+.stillhere{
+  font-family: 'Raleway',sans-serif; font-size: 52px; font-weight: 700; line-height: 72px;
+}
+.check{
+ font-size: 38px; font-family: 'Signika', sans-serif;margin-bottom: 40px;
+}
+/* input[type=text]{
+  color:blue
+} */
+/* .pattern{
+ 
+
+} */
+.part{ height:300px;
+  width:100%;
+ background-color: black;
+ opacity: 0.5;
+background-image:  linear-gradient(#c79f5a 1px, transparent 1px), linear-gradient(to right, #c79f5a 1px, #2b2e35 1px);
+background-size: 20px 20px;
+}
+@media (max-width:768px) {
+
+}
+.contact{
+  background-color: #2B2E35;
+  height:700px;
+  grid-template-columns: 50% 50%;
+  position:relative;
+}
+.form{
+  background-color: #2C5364;
+  padding:50px;
+}
+.contact-form-title{
+  color:white
+}
+.contact-form{
+  width:90%;
+  margin:auto;
+}
+
+*{
+  padding:0;
+  margin:0
+}
+.third{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.form-1{
+  display: grid;
+  grid-template-rows: 60% 40%;
+}
+.social-media{
+  background-color: #C79E5A;
+  opacity:5%
+}
+.social-media-icons{
+ 
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  width:50%;
+  /* align-items: center; */
+}
+.contacticon{
+  position:absolute;
+  top:60%;
+  right:-10%
+}
+.social-media-icons img{
+  width:50px;
+}
+.contact-us h1{
+ 
+    /* padding:5px */
+   
+}
+/* title */
+.title:before {
+  
+        border-top: 18px solid #c79f5a;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; 
+        /* right:0%; */
+        /* left: -5; */
+         bottom: 0;
+        width: 50%;
+        z-index: -1;
+    
+    }
+    .title{
+      /* font-family: MADE Outer Sans; */
+      color:white;
+      font-weight: bold;
+      font-family: 'Raleway', sans-serif;
+        position: relative;
+        z-index: 1;
+    }
+    .contact-us{
+      
+      color:white;
+      width:70%;
+      margin:auto;
+      position:relative;
+    }
+  .contact-us p{
+    color:#AAC2CE;
+
+    width:80%
+  }
+   
+    /* .section{
+      display: flex;
+      justify-content: space-between;
+    } */
+ 
+.before{
+  color:white;
+  background-image:  url('./images/beforeafter.png');
+  /* width:70%;
+  margin:auto; */
+}
+    /***/
+    *{
+      padding: 0;
+      margin: 0; 
+      font-family: 'Quicksand', sans-serif;
+     }
+     body{
+      background-color: #2B2E35;
+      color: #AAC2CE;
+     }
+     .beforeandafter{
+       display: grid;
+       grid-template-columns: 40% 60%;
+       height:700px;
+       position:relative;
+     }
+     .beforesection{
+       width:70%;
+       margin:auto;
+     }
+  /* body{
+      background: url(https://jooinn.com/images/city-street-1.jpg);
+      background-size: cover;
+  } */
+  .container{
+      position: relative;
+      top: 5vh;  
+      width: 40%;    min-height: 20px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px 30px;
+      box-sizing: border-box;
+      box-shadow: 0 0 10px rgb(0 0 0 / 80%);
+  }
+  .container h1{
+      color: #ff5722;
+      text-align: center;   text-transform: uppercase;
+  }
+  .container .box{
+      position: relative;
+      width: 100%;
+      margin: 30px 0;
+  }
+  .container .box input,.container .box textarea{
+      position: relative;
+      border: none;   outline: none;
+      width: 100%;
+      font-size: 22px;
+      padding: 8px 0;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgba(0,0,0,.2); 
+      background: transparent;
+      z-index: 2;
+      transition: .9s;
+  }
+  .container .box input:focus,.container .box textarea:focus{
+      border-color: #ff5722;
+  }
+  .container .box span{
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      color: rgba(0,0,0,.5);
+      z-index: 1;
+      transition: .9s;
+  }
+  .container .box input + span{
+      top: 31%;
+  }
+  .container .box input:focus + span , .container .box input:valid + span{
+      color: #ff5722;
+      top: -20%;
+  }
+  .container .box textarea + span{
+      top: 13px;
+  }
+  .container .box textarea:focus + span , .container .box textarea:valid + span{
+      color: #ff5722;
+      top: -11px;
+  }
+  
+  .container a{
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      padding: 10px 0;
+      color: #fff;   background: #ff5722;
+      text-transform: uppercase;  text-align: center;
+      text-decoration: none;
+  }
+  .container a:hover{
+      background: #d23d0e;
+  }
+ 
